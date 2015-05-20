@@ -1,0 +1,27 @@
+/**
+ * Just one more second.
+ */
+
+#optimus-ascii .md {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#optimus-ascii .md h1,h2,h3,h4,h5,h6 {
+  display: inline-block;
+  color: #ddd;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+#optimus-ascii .md li {
+  margin: 5px 0;
+}
+
+#optimus-ascii .md h1,h2,h3,h4,h5,h6,ul,p {
+  margin: 0px;
+}
+
+/**
+ * That's better.
+ * Ok let's strat with the noise.
+ */

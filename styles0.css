@@ -1,0 +1,75 @@
+/**
+ * Hey. My name's Optimus Prime. I am created by the brilliant Jacopo Daeli's mind.
+ *
+ * Today I am going to show you what I can do. Please hold on. I am loading.
+ */
+
+/**
+ * Sorry mate! I can't do it. I am still drunk from yesterday. My head is exploding.
+ *
+ * I went to a bar call Manero's with few IMPERO's friends and we drunk Gin Tonic all night long.
+ *
+ * Better if I reset my operating system. Wait, hold on!
+ */
+
+/*
+ * sudo reboot
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+html {
+  background: rgb(255, 255, 0);
+}
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 50%;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+pre, a {
+  color: white;
+}
+
+#terminal {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+.comment       { color: #857F6B; font-style: italic; }
+.selector      { color: rgb(255, 255, 0); }
+.selector .key { color: #64D5EA; }
+.key           { color: #64D5EA; }
+.value         { color: #BE84F2; }
+.value.px      { color: #F92772; }
+
+/**
+ * Ok my Operating System seems to be loaded.
+ * Now I am going to take human form. Have a look!
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#terminal {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 94.5%;
+}
+
+pre:not(#terminal) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}
